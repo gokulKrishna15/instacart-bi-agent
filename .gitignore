@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env files (IMPORTANT)
+.env
+
+# Data (big files)
+data/
+.tmp/
+
+# OS
+.DS_Store
+Thumbs.db
