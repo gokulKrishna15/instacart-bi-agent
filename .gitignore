@@ -1,13 +1,18 @@
+# Secrets — NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# Data files — too large for GitHub
+data/
+*.csv
+
 # Python
 __pycache__/
 *.pyc
-
-# Env files (IMPORTANT)
-.env
-
-# Data (big files)
-data/
-.tmp/
+*.pyo
+.venv/
+venv/
+env/
 
 # OS
 .DS_Store
